@@ -54,7 +54,7 @@
 		65C3C5FA2E3FB49B001EECF1 /* Inter_28pt-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_28pt-Medium.ttf"; sourceTree = "<group>"; };
 		65C3C5FB2E3FB49B001EECF1 /* Inter_28pt-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_28pt-Italic.ttf"; sourceTree = "<group>"; };
 		65C3C5FC2E3FB49B001EECF1 /* Inter_28pt-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter_28pt-Bold.ttf"; sourceTree = "<group>"; };
-		65C3C6032E3FB523001EECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65C3C6032E3FB523001EECF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,6 @@
 		656BC98A2E3FA9F500943FE1 /* FurnitureApp */ = {
 			isa = PBXGroup;
 			children = (
-				65C3C6032E3FB523001EECF1 /* Info.plist */,
 				65C3C5F62E3FB207001EECF1 /* Scenes */,
 				65C3C5F52E3FB084001EECF1 /* App */,
 				65C3C5F72E3FB22E001EECF1 /* Resources */,
@@ -157,6 +156,7 @@
 		65C3C5F72E3FB22E001EECF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				65C3C6032E3FB523001EECF1 /* Info.plist */,
 				65C3C6022E3FB4C4001EECF1 /* Fonts */,
 				656BC98F2E3FA9F700943FE1 /* Assets.xcassets */,
 				656BC9912E3FA9F700943FE1 /* Preview Content */,
