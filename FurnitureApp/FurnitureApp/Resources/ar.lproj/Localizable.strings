@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  FurnitureApp
+
+  Created by Abdelrahman Amer on 06/08/2025.
+  
+*/
+
+
+"splash_title" = "استمتع بتجديد الأثاث الخاص بك";
+"splash_description" = "تصفح جميع الفئات واكتشف الأثاث الجاهز لحياة جديدة في منزلك المثالي";
+"get_started" = "ابدأ الآن";
+"language_alert_title" = "يرجي اعاده التشغيل لتغير اللغه";
+

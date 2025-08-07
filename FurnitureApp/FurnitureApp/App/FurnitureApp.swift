@@ -12,6 +12,7 @@ struct FurnitureApp: App {
     var body: some Scene {
         WindowGroup {
             SplashView()
+                .environment(\.layoutDirection, LanguageManager.shared.layoutDirection)
         }
     }
 }

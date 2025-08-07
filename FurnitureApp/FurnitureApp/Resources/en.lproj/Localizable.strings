@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  FurnitureApp
+
+  Created by Abdelrahman Amer on 06/08/2025.
+  
+*/
+
+"splash_title" = "Enjoy Your Furniture Renew";
+"splash_description" = "Browse through all categories and discover furniture ready for a second life in your dream home";
+"get_started" = "Get Started";
+"language_alert_title" = "Restart to change language";
