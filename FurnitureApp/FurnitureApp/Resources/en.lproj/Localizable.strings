@@ -10,3 +10,21 @@
 "splash_description" = "Browse through all categories and discover furniture ready for a second life in your dream home";
 "get_started" = "Get Started";
 "language_alert_title" = "Restart to change language";
+"login_welcome_title" = "Welcome Back!";
+"login_welcome_subtitle" = "Sign in to access your account";
+"login_email" = "Email";
+"login_password" = "Password";
+"login_button" = "Login";
+"login_or_continue_with" = "Or continue with";
+"login_no_account" = "If You Don't have an account.";
+"login_sign_up" = "Sign Up";
+"splash_get_started_button" = "Get Started";
+
+"signup_welcome_title" = "Create Account";
+"signup_welcome_subtitle" = "Fill your information below to create a new account.";
+"signup_name" = "Full Name";
+"signup_phone" = "Phone Number";
+"signup_email" = "Email";
+"signup_password" = "Password";
+"signup_confirm_password" = "Confirm Password";
+"signup_button" = "Sign Up";

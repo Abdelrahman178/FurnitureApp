@@ -11,4 +11,21 @@
 "splash_description" = "تصفح جميع الفئات واكتشف الأثاث الجاهز لحياة جديدة في منزلك المثالي";
 "get_started" = "ابدأ الآن";
 "language_alert_title" = "يرجي اعاده التشغيل لتغير اللغه";
+"login_welcome_title" = "أهلاً بعودتك!";
+"login_welcome_subtitle" = "سجل الدخول للوصول إلى حسابك";
+"login_email" = "البريد الإلكتروني";
+"login_password" = "كلمة المرور";
+"login_button" = "تسجيل الدخول";
+"login_or_continue_with" = "أو المتابعة باستخدام";
+"login_no_account" = "اذا لم يكن لديك حساب.";
+"login_sign_up" = "إنشاء حساب";
+"splash_get_started_button" = "ابدأ الآن";
 
+"signup_welcome_title" = "إنشاء حساب";
+"signup_welcome_subtitle" = "املأ معلوماتك لإنشاء حساب جديد.";
+"signup_name" = "الاسم الكامل";
+"signup_phone" = "رقم الهاتف";
+"signup_email" = "البريد الإلكتروني";
+"signup_password" = "كلمة المرور";
+"signup_confirm_password" = "تأكيد كلمة المرور";
+"signup_button" = "إنشاء حساب";
