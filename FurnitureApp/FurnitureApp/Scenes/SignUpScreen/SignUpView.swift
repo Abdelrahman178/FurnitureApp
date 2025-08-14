@@ -99,7 +99,13 @@ struct SignUpView: View {
     }
 
     private func signUp() {
-        if name.isEmpty || phone.isEmpty || email.isEmpty || password.isEmpty || confirmPassword.isEmpty {
+        
+        if email.range(of: "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}", options: .regularExpression) == nil {
+            errorMessage = "Please enter a valid email address"
+            return
+        }
+
+            if name.isEmpty || phone.isEmpty || email.isEmpty || password.isEmpty || confirmPassword.isEmpty {
             errorMessage = "Please fill all fields"
             return
         }

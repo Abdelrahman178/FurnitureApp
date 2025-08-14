@@ -8,6 +8,7 @@
 import SwiftUI
 import FirebaseCore
 import FirebaseAuth
+import GoogleSignIn 
 
 @main
 struct FurnitureApp: App {
@@ -19,6 +20,11 @@ struct FurnitureApp: App {
         WindowGroup {
             SplashView()
                 .environment(\.layoutDirection, LanguageManager.shared.layoutDirection)
+                .onOpenURL { url in
+                    // This handles the redirect from Google
+                    GIDSignIn.sharedInstance.handle(url)
+                }
         }
     }
 }
+    

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SplashView: View {
+struct Onboarding: View {
     
     @State private var goToLogin = false
     
@@ -15,7 +15,7 @@ struct SplashView: View {
         NavigationStack {
             
             VStack(spacing: 0) {
-                
+               
                 ZStack(alignment: .topTrailing) {
                     Image("SplashImage")
                         .resizable()
@@ -25,6 +25,7 @@ struct SplashView: View {
                     Button(action: {
                         
                         openAppSettings()
+                        
                     }) {
                         Image(systemName: "globe")
                             .font(.system(size: 30))
@@ -85,6 +86,6 @@ struct SplashView: View {
 
 struct MyPreviewProvider_Previews: PreviewProvider {
     static var previews: some View {
-        SplashView()
+        Onboarding()
     }
 }
