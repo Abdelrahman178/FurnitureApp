@@ -8,10 +8,14 @@
 import SwiftUI
 import FirebaseCore
 import FirebaseAuth
-import GoogleSignIn 
+import GoogleSignIn
 
 @main
 struct FurnitureApp: App {
+    @StateObject private var appState = AppState()
+    // @StateObject private var authService = AuthService()
+    @StateObject private var productViewModel = ProductViewModel()
+
     init() {
         FirebaseApp.configure()
     }
@@ -19,12 +23,15 @@ struct FurnitureApp: App {
     var body: some Scene {
         WindowGroup {
             SplashView()
+                .environmentObject(appState)
+                // .environmentObject(authService)
+                .environmentObject(productViewModel)
                 .environment(\.layoutDirection, LanguageManager.shared.layoutDirection)
                 .onOpenURL { url in
-                    // This handles the redirect from Google
+                    // Handle Google Sign-In redirect
                     GIDSignIn.sharedInstance.handle(url)
                 }
         }
     }
 }
-    
+

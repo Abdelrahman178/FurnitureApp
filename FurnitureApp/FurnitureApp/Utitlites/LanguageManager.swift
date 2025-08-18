@@ -35,7 +35,7 @@ class LanguageManager {
     private init() {}
     
     var currentLanguage: String {
-        return Locale.current.language.languageCode?.identifier ?? "en"
+        return Locale.current.languageCode ?? "en"
     }
     
     var layoutDirection: LayoutDirection {
